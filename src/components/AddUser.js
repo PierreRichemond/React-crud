@@ -10,7 +10,6 @@ import {
 
 export const AddUser = () => {
   return (
-    <div>
       <Form>
         <FormGroup>
           <Label>Name</Label>
@@ -19,7 +18,7 @@ export const AddUser = () => {
         <Button type='submit' >Submit</Button>
         <Link to='/' className="btn btn-danger ml-2">Cancel</Link>
       </Form>
-    </div>
+
   )
 }
 
